@@ -1,0 +1,97 @@
+body {
+    background-color: #d1d1d1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 70vh;
+}
+.main-container {
+    background-color: #d1d1d1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+.calc-container {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+.input-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+.input-group, .output-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 5px;
+}
+
+.button-group {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.result-container {
+    align-items: center;
+    width: 45%;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+input, button {
+    align-items: center;
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+
+}
+
+button {
+    width: 93%;
+    background: #1b63fd;
+    color: white;
+    cursor: pointer;
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #147aff;
+    text-align: center;
+}

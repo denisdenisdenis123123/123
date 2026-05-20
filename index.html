@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termometrs</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+   <div class="main-container">
+    <h2>Temperaturas ieraksti</h2>
+     <div class="calc-container">
+          <div class="input-container">
+            <div class="input-group">
+              <label>Datums: (dd.mm.gggg)</label>
+              <input type="number" id="datums" step="0.01">
+            </div>
+            <div class="input-group">
+              <label>Mazāka temperatūra:</label>
+              <input type="number" id="smallTemp" step="0.01">
+            </div>
+            <div class="input-group">
+              <label>Lielāka temperatūra:</label>
+              <input type="number" id="highTemp" step="0.01">
+            </div>
+            <div class="button-group">
+              <button class="onclick"calculateTemp()>pievienot</button>
+            </div>
+          </div>
+        <div class="result-container">
+        <h3>Temperatūru saraksts</h3>
+        <div class="result-row">
+          <div class="output-group">
+            <td>2025-12-15</td>
+            <input type="text" id="temperatura">
+          </div>
+           <div class="output-group">
+            <tr>2015-06-06</tr>
+            <input type="text" id="temperatura">
+          </div>
+        </div>
+
+        <div class="result-row">
+          <div class="output-group">
+            <tr>2023-11-05</tr>
+            <input type="text" id="temperatura">
+          </div>
+           <div class="output-group">
+            <tr>2017-08-08</tr>
+            <input type="text" id="temperatura">
+          </div>
+        </div>
+
+        <div class="result-row">
+          <div class="output-group">
+            <tr>2000-05-05</tr>
+            <input type="text" id="temperatura">
+          </div>
+           <div class="output-group">
+            <tr>2019-01-01</tr>
+            <input type="text" id="temperatura">
+          </div>
+        </div>
+          <div class="button-group">
+        </div>
+        <div class="summary"
+        Vidēja temperatūra visam dienam: <span style="font-variant-numeric: tabular-nums;">
+          <tr>autors Deniss Kivriņš</tr>
+          <button class="onclick"calculateTemp()>skatīt vairāk</button>
+
+     </div>
+
+
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
